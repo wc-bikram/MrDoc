@@ -1,12 +1,26 @@
 # MrDoc
-End-to-end-Medical-Chatbot-Generative-AI
-How to run?
-STEPS:
-Clone the repository
+# 🩺 End-to-End Medical Chatbot (Generative AI)
 
-Project repo: https://github.com/
-STEP 01- Create a conda environment after opening the repository
+# 🩺 End-to-End Medical Chatbot (Generative AI)
+
+This project is an end-to-end implementation of a medical chatbot powered by Generative AI.
+
+---
+
+## 🚀 How to Run the Project
+
+Follow the steps below to get everything set up:
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/<your-repo-name>
+cd <your-repo-name>
+
+# Step 2: Create and activate a conda environment
 conda create -n medibot python=3.10 -y
 conda activate medibot
-STEP 02- install the requirements
+
+# Step 3: Install required packages
 pip install -r requirements.txt
+
+```
