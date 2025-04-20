@@ -20,15 +20,18 @@ pc = Pinecone(api_key=PINECONE_API_KEY)
 index_name = "medibot"
 
 
-pc.create_index(
-    name=index_name,
-    dimension=384, 
-    metric="cosine", 
-    spec=ServerlessSpec(
-        cloud="aws", 
-        region="us-east-1"
-    ) 
-) 
+
+# Check if index already exists or create new index
+existing_indexes = [index["name"] for index in pc.list_indexes()]
+if index_name not in existing_indexes:
+    pc.create_index(
+        name=index_name,
+        dimension=384,
+        metric="cosine",
+        spec=ServerlessSpec(cloud="aws", region="us-east-1")
+    )
+else:
+    print(f"✅ Index '{index_name}' already exists.") 
 
 # Embed each chunk and upsert the embeddings into your Pinecone index.
 docsearch = PineconeVectorStore.from_documents(
