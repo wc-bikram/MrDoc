@@ -2,7 +2,6 @@
 
 Medibot is an AI-powered medical assistant chatbot that can intelligently answer health-related questions by retrieving and synthesizing relevant information from medical documents using **Retrieval-Augmented Generation (RAG)**.
 
-![Medibot UI](assets/medibot_ui_screenshot.png) <!-- Replace with actual image path if hosted -->
 
 ---
 
