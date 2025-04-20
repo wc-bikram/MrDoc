@@ -30,6 +30,14 @@ Medibot is an AI-powered medical assistant chatbot that can intelligently answer
 
 ---
 
+UI interface
+
+![Screenshot (3)](https://github.com/user-attachments/assets/15af1893-99c5-422e-9c00-a11e104bf61a)
+
+
+
+
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the repo
