@@ -1,6 +1,6 @@
-# 🩺 Medibot – Medical Chatbot using RAG, Hugging Face & Pinecone
+# 🩺 MrDoc – Medical Chatbot using RAG, Hugging Face & Pinecone
 
-Medibot is an AI-powered medical assistant chatbot that can intelligently answer health-related questions by retrieving and synthesizing relevant information from medical documents using **Retrieval-Augmented Generation (RAG)**.
+MrDoc is an AI-powered medical assistant chatbot that can intelligently answer health-related questions by retrieving and synthesizing relevant information from medical documents using **Retrieval-Augmented Generation (RAG)**.
 
 
 ---
